@@ -6,5 +6,6 @@ public class Car {
 
     void run() {
         tire1.roll();
+        tire2.roll();
     }
 }

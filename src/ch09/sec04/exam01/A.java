@@ -1,16 +1,17 @@
-package ch09.sec02.exam01;
+package ch09.sec04.exam01;
 
 public class A {
-    class B {
-    }
-
-    B field = new B();
-
     A() {
+        class B {
+        }
+
         B b = new B();
     }
 
     void method() {
+        class B {
+        }
+
         B b = new B();
     }
 }
