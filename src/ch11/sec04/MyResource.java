@@ -5,11 +5,11 @@ public class MyResource implements AutoCloseable {
 
     public MyResource(String name) {
         this.name = name;
-        System.out.println("[MyResource(" + name + ") 열기]");
+        System.out.println("[MyResource(" + name + ") 열기");
     }
 
     public String read1() {
-        System.out.println("[MyResource(" + name + ") 읽기]");
+        System.out.println("[MyResource(" + name + ") 읽기");
         return "100";
     }
 

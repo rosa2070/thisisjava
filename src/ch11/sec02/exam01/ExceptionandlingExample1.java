@@ -11,6 +11,5 @@ public class ExceptionandlingExample1 {
         printLength("ThisIsJava");
         printLength(null);
         System.out.println("[프로그램 종료]");
-
     }
 }

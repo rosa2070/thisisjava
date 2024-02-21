@@ -1,7 +1,7 @@
 package ch11.sec06;
 
 public class Account {
-    public long balance;
+    private long balance;
 
     public Account() {
     }

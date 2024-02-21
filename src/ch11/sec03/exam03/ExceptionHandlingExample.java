@@ -14,5 +14,6 @@ public class ExceptionHandlingExample {
                 System.out.println("데이터에 문제가 있음: " + e.getMessage());
             }
         }
+
     }
 }
