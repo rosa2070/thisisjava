@@ -12,9 +12,9 @@ public class GenericExample {
         box3.content = 100;
 
         boolean result1 = box1.compare(box2);
-        System.out.println("result1 = " + result1);
+        System.out.println("result1: " + result1);
 
         boolean result2 = box1.compare(box3);
-        System.out.println("result2 = " + result2);
+        System.out.println("result2: " + result2);
     }
 }
